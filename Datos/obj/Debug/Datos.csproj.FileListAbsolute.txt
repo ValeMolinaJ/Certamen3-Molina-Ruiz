@@ -1,0 +1,6 @@
+G:\Ing. Computacion e informatica\Segundo semestre\Lenguaje de Programación OO\Certamen3\Datos\bin\Debug\Datos.dll
+G:\Ing. Computacion e informatica\Segundo semestre\Lenguaje de Programación OO\Certamen3\Datos\bin\Debug\Datos.pdb
+G:\Ing. Computacion e informatica\Segundo semestre\Lenguaje de Programación OO\Certamen3\Datos\obj\Debug\Datos.csprojAssemblyReference.cache
+G:\Ing. Computacion e informatica\Segundo semestre\Lenguaje de Programación OO\Certamen3\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+G:\Ing. Computacion e informatica\Segundo semestre\Lenguaje de Programación OO\Certamen3\Datos\obj\Debug\Datos.dll
+G:\Ing. Computacion e informatica\Segundo semestre\Lenguaje de Programación OO\Certamen3\Datos\obj\Debug\Datos.pdb

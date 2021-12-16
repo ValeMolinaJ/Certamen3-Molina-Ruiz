@@ -1,0 +1,9 @@
+G:\Ing. Computacion e informatica\Segundo semestre\Lenguaje de Programación OO\Certamen3\Modelo\bin\Debug\Modelo.dll
+G:\Ing. Computacion e informatica\Segundo semestre\Lenguaje de Programación OO\Certamen3\Modelo\bin\Debug\Modelo.pdb
+G:\Ing. Computacion e informatica\Segundo semestre\Lenguaje de Programación OO\Certamen3\Modelo\bin\Debug\Datos.dll
+G:\Ing. Computacion e informatica\Segundo semestre\Lenguaje de Programación OO\Certamen3\Modelo\bin\Debug\Datos.pdb
+G:\Ing. Computacion e informatica\Segundo semestre\Lenguaje de Programación OO\Certamen3\Modelo\obj\Debug\Modelo.csprojAssemblyReference.cache
+G:\Ing. Computacion e informatica\Segundo semestre\Lenguaje de Programación OO\Certamen3\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+G:\Ing. Computacion e informatica\Segundo semestre\Lenguaje de Programación OO\Certamen3\Modelo\obj\Debug\Modelo.csproj.CopyComplete
+G:\Ing. Computacion e informatica\Segundo semestre\Lenguaje de Programación OO\Certamen3\Modelo\obj\Debug\Modelo.dll
+G:\Ing. Computacion e informatica\Segundo semestre\Lenguaje de Programación OO\Certamen3\Modelo\obj\Debug\Modelo.pdb
