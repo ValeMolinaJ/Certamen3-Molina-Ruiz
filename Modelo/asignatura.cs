@@ -10,8 +10,11 @@ namespace Modelo
 {
     public class asignatura
     {
-        private string idAsig { get; set; }
-        private string nombreAsig { get; set; }
+        private string idAsig;
+        private string nombreAsig;
+
+        public string IdAsig { get => idAsig; set => idAsig = value; }
+        public string NombreAsig { get => nombreAsig; set => nombreAsig = value; }
         public asignatura()
         {
 

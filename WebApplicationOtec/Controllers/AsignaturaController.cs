@@ -81,5 +81,70 @@ namespace WebApplicationOtec.Controllers
                 return resp;
             }
         }
+        //Método para eliminar datos.
+        [HttpDelete]
+        [Route("api/deleteAsignatura")]
+        public respuesta eliminar(string idAsig)
+        {
+            respuesta resp = new respuesta();
+            try
+            {
+                asignatura asig = new asignatura();
+                asig.IdAsig = idAsig;
+                int estado = asig.eliminar();
+                if (estado == 1)
+                {
+                    resp.error = false;
+                    resp.mensaje = "Asignatura eliminada";
+                    resp.data = null;
+                }
+                else
+                {
+                    resp.error = true;
+                    resp.mensaje = "No se realizó la eliminación";
+                    resp.data = null;
+                }
+                return resp;
+            }
+            catch (Exception e)
+            {
+                resp.error = true;
+                resp.mensaje = "Error:" + e.Message;
+                resp.data = null;
+                return resp;
+            }
+        }
+        //Método para actualizar datos.
+        [HttpPut]
+        [Route("api/updateAsignatura")]
+        public respuesta actualizar(asignaturas asignatura)
+        {
+            respuesta resp = new respuesta();
+            try
+            {
+                asignatura asig = new asignatura(asignatura.idAsig, asignatura.nombreAsig);
+                int estado = asig.actualizar(asignatura.idAsig);
+                if (estado == 1)
+                {
+                    resp.error = false;
+                    resp.mensaje = "Asignatura Modificada";
+                    resp.data = asignatura;
+                }
+                else
+                {
+                    resp.error = true;
+                    resp.mensaje = "No se realizó la modificación";
+                    resp.data = null;
+                }
+                return resp;
+            }
+            catch (Exception e)
+            {
+                resp.error = true;
+                resp.mensaje = "Error:" + e.Message;
+                resp.data = null;
+                return resp;
+            }
+        }
     }
 }

@@ -162,6 +162,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\administradores.cs" />
     <Compile Include="Models\asignaturas.cs" />
     <Compile Include="Models\respuesta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -250,6 +251,10 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Datos\Datos.csproj">
+      <Project>{520d49f5-eb32-4c64-b28e-b8320e5174ec}</Project>
+      <Name>Datos</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Modelo\Modelo.csproj">
       <Project>{83f9b233-bafa-4f32-a5c7-70fa816724d2}</Project>
       <Name>Modelo</Name>

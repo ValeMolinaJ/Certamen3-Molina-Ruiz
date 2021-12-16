@@ -10,10 +10,26 @@ namespace Modelo
 {
     public class administrador
     {
-        public string rut { get; set; }
-        public string nombre { get;  set; }
-        public string telefono { get; set; }
-        public string direccion { get; set; }
+        private string rut;
+        private string nombre;
+        private string telefono;
+        private string direccion;
+
+        public string Rut { get => rut; set => rut = value; }
+        public string Nombre { get => nombre; set => nombre = value; }
+        public string Telefono { get => telefono; set => telefono = value; }
+        public string Direccion { get => direccion; set => direccion = value; }
+        public administrador()
+        {
+
+        }
+        public administrador(string rut, string nombre, string telefono, string direccion)
+        {
+            this.rut = rut;
+            this.nombre = nombre;
+            this.telefono = telefono;
+            this.direccion = direccion;
+        }
 
         Conexion data = new Conexion();
         public DataSet listadoAdmin()
