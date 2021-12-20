@@ -38,7 +38,6 @@ namespace WebApplicationOtec.Controllers
                     resp.data = listado;
                 }
                 else
-
                     resp.data = "No se encontro el administrador";
                 return resp;
             }
@@ -48,7 +47,6 @@ namespace WebApplicationOtec.Controllers
                 resp.mensaje = "Error:" + e.Message;
                 resp.data = null;
                 return resp;
-
             }
         }
         //Método para insertar datos.
